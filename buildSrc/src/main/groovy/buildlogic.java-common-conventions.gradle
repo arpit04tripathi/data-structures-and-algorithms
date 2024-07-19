@@ -12,11 +12,8 @@ repositories {
     mavenCentral()
 }
 
-ext {
-    lombokVersion = '1.18.28'
-}
-
 dependencies {
+    /* centralizing the dependency version resolution using constraints */
     constraints {
         // Define dependency versions as constraints
         implementation 'org.apache.commons:commons-text:1.11.0'
@@ -28,10 +25,10 @@ dependencies {
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
     // lombok
-    compileOnly 'org.projectlombok:lombok:${lombokVersion}'
-    annotationProcessor 'org.projectlombok:lombok:${lombokVersion}'
-    testCompileOnly 'org.projectlombok:lombok:${lombokVersion}'
-    testAnnotationProcessor 'org.projectlombok:lombok:${lombokVersion}'
+    compileOnly 'org.projectlombok:lombok:1.18.28'
+    annotationProcessor 'org.projectlombok:lombok:1.18.28'
+    testCompileOnly 'org.projectlombok:lombok:1.18.28'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.28'
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
