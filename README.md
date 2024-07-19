@@ -9,6 +9,14 @@ Structured in 3 Modules
 
 # setup
 
+```bash
+# install and use java version defined in .sdkmanrc
+sdk env
+
+# list projects
+./gradlew projects -q
+```
+
 run main classes to check
 ```bash
 ./gradlew run
