@@ -27,3 +27,9 @@ run main classes to check
 ```bash
 ./gradlew :common:dependencies
 ```
+
+`buildSrc` has the plugins where we have defined common dependencies like lombok.
+```bash
+# we can also pass the variable as parameter
+./gradlew clean build -PlombokVersion=1.18.30
+```
