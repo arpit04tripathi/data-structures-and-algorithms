@@ -5,16 +5,12 @@ plugins {
 group = 'com.a04t.dsa'
 version = '0.0.1'
 
-//dependencies {
-//    testImplementation platform('org.junit:junit-bom:5.10.0')
-//    testImplementation 'org.junit.jupiter:junit-jupiter'
-//}
+dependencies {
+//    api project(':common')            // api only allowed if java plugin applied
+    implementation project(':common')
+}
 
 application {
     // Define the main class for the application.
     mainClass = 'com.a04t.dsa.algo.Main'
 }
-
-//test {
-//    useJUnitPlatform()
-//}
