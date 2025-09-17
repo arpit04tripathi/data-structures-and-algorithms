@@ -12,6 +12,13 @@ repositories {
     mavenCentral()
 }
 
+ext {
+    // TODO: not working
+    lombok_version = '1.18.34'
+}
+
+println('lombok_version = ${lombok_version}')
+
 dependencies {
     constraints {
         // Define dependency versions as constraints
