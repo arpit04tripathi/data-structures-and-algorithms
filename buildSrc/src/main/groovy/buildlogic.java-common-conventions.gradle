@@ -12,6 +12,13 @@ repositories {
     mavenCentral()
 }
 
+ext {
+    // TODO: not working
+    lombok_version = '1.18.34'
+}
+
+println('lombok_version = ${lombok_version}')
+
 dependencies {
     constraints {
         // Define dependency versions as constraints
@@ -22,12 +29,18 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.12.1'
 
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+    // lombok
+    compileOnly 'org.projectlombok:lombok:1.18.34'
+    annotationProcessor 'org.projectlombok:lombok:1.18.34'
+    testCompileOnly 'org.projectlombok:lombok:1.18.34'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.34'
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(24)
+        languageVersion = JavaLanguageVersion.of(22)
     }
 }
 
