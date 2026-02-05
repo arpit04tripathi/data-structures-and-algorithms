@@ -12,3 +12,5 @@ plugins {
 
 rootProject.name = 'data-structures-and-algorithms'
 include('app', 'list', 'utilities')
+include 'common'
+
