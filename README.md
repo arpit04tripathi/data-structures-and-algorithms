@@ -15,6 +15,8 @@ Structured in 3 Modules
 
 # Summary
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ADWPbock-7U/0.jpg)](https://www.youtube.com/watch?v=ADWPbock-7U)
+
 - Data Structures
   - Linear
     - Array
