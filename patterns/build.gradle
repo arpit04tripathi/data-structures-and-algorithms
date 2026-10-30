@@ -1,0 +1,15 @@
+plugins {
+    id 'buildlogic.java-application-conventions'
+}
+
+group = 'com.a04t.dsa.patterns'
+version = 'unspecified'
+
+dependencies {
+    implementation project(':common')
+}
+
+application {
+    // Define the main class for the application.
+    mainClass = 'com.a04t.dsa.patterns.Main'
+}
