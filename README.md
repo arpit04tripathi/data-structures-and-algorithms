@@ -13,6 +13,53 @@ Structured in 3 Modules
 - `algorithms` : algorithms using nodes defined in common
 - `patterns` : common patterns for DSA interview questions 
 
+# Summary
+
+- Data Structures
+  - Linear
+    - Array
+    - Linked List
+    - Stack
+    - Queue
+  - Non-Linear
+    - Tree
+    - BST
+    - Heap : Min Heap, Max Heap
+    - Balanced Tree : AVL Tree, Red Black Tree
+    - Graph
+    - Trie
+    - Hash Table
+    - Skip List
+    - Disjoint Set
+    - Segment Tree
+    - Fenwick Tree
+    - Suffix Tree
+    - Suffix Array
+    - B-Tree
+    - B+ Tree
+    - Bloom Filter
+    - Counting Bloom Filter
+    - Cuckoo Filter
+    - Quotient Filter
+    - XOR Filter
+    - Skip Graph
+    - K-D Tree
+    - R-Tree
+    - Quad Tree
+    - Octree
+    - Rope
+    - Suffix Array
+    - Suffix Tree
+    - Ternary Search Tree
+- Algorithms
+  - Searching
+  - Sorting ()
+  - Sorting ()
+- Patterns
+  - 2 Sum
+  - 3 Sum
+  - Sliding Window
+
 # setup
 
 ```bash
